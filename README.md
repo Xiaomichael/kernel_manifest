@@ -1,2 +1,2 @@
 # how to build
-make build
+using make build
