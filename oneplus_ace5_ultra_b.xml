@@ -3,13 +3,13 @@
   <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
   <remote fetch="https://github.com/OnePlusOSS" name="origin"/>
   <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
-  <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel_platform/common" revision="mt6991_b_16.0.0_oneplus_ace5_ultra">
+  <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel_platform/common" revision="oneplus/mt6991_b_16.0.0_oneplus_ace5_ultra">
     <linkfile dest="kernel_platform/.source_date_epoch_dir" src="."/>
   </project>
-  <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel_platform/msm-kernel" revision="mt6991_b_16.0.0_oneplus_ace5_ultra">
+  <project remote="origin" name="android_kernel_oneplus_mt6991" path="kernel_platform/msm-kernel" revision="oneplus/mt6991_b_16.0.0_oneplus_ace5_ultra">
     <linkfile dest="kernel_platform/build_with_bazel.py" src="build_with_bazel.py"/>
   </project>
-  <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_mt6991" path="./" revision="mt6991_b_16.0.0_oneplus_ace5_ultra"/>
+  <project remote="origin" name="android_kernel_modules_and_devicetree_oneplus_mt6991" path="./" revision="oneplus/mt6991_b_16.0.0_oneplus_ace5_ultra"/>
   <project remote="clo-la" name="kernel/common-modules/trusty" path="kernel_platform/common-modules/trusty" revision="b76f8570a1a3480a158f6bc69590dbf326a444d0" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel"/>
   <project remote="clo-la" name="kernel/prebuilts/build-tools" path="kernel_platform/prebuilts/kernel-build-tools" revision="434f141b6d22a773a163fa9c707b19b4d254d989" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
   <project remote="clo-la" name="kernel_platform/build/bazel_common_rules" path="kernel_platform/build/bazel_common_rules" revision="01828ea1ba6e8dabaf06d23cece9f65135bcbaac" upstream="refs/heads/ks-kernel.lnx.4.0.r1-rel" groups="ddk"/>
